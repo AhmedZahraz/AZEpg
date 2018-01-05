@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Hello World!</title>
+    <title>AZEpg</title>
 </head>
 
 <body>
 <div id="authors"></div>
 
+<h1>AZ Epg ! </h1>
    <script>
         function createNode(element) {
       	return document.createElement(element);
@@ -19,8 +20,7 @@
   const ul = document.getElementById('authors');
   const url = 'http://epg.koditvepg.com/FR/guide.xml';
   fetch(url, {
-  	method: 'GET', 
-mode: 'cors'})
+  	method: 'GET'
   //.then((resp) => resp.json())
   .then(function(data) {
     let authors = data;
