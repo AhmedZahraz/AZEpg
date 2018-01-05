@@ -20,7 +20,7 @@
   const ul = document.getElementById('authors');
   const url = 'http://epg.koditvepg.com/FR/guide.xml';
   fetch(url, {
-  	method: 'GET'
+  	method: 'GET'})
   //.then((resp) => resp.json())
   .then(function(data) {
     let authors = data;
