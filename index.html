@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello World!</title>
+</head>
+
+<body>
+<div id="authors"></div>
+
+   <script>
+        function createNode(element) {
+      	return document.createElement(element);
+  		}
+
+  function append(parent, el) {
+    return parent.appendChild(el);
+  }
+
+  const ul = document.getElementById('authors');
+  const url = 'http://epg.koditvepg.com/FR/guide.xml';
+  fetch(url, {
+  	method: 'GET', 
+mode: 'cors'})
+  //.then((resp) => resp.json())
+  .then(function(data) {
+    let authors = data;
+    console.log(authors);
+    let span = createNode('span');
+    span.innerHTML = `${authors.text()}`;
+    append(ul, span);
+
+  })
+  .catch(function(error) {
+    console.log(error);
+  });   
+    </script>
+
+</body>
+</html>
