@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>assets</key>
+			<array>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>https://firebaseappdistribution.googleapis.com/app-binary-downloads/firebase-app-distro/app-binaries/904958926874/1:904958926874:ios:7239db1d602293619171a3/b72d2ec2-74b2-4017-b88e-9dcf366cb1ad.ipa?token=AFb1MRwAAAAAY1a5-z1y_uj6L3oDLsRLJmI4Ubq5AEGbRkP5OBLzQHmJvY7tdj0NjDzXOK_QiYJzxchqCCJ_Ql73HDLyhuIhmTLBRaLb5bLnZmAzx7n2VvoTJ7zdRBD-s3RG4X0MCx9Bv2MC4y7_O5u_jptjw33JdzLNQM3WJWZrDrtdY_5XG4wxbVFvGi4ThYDwkyYkTP2ODq4eS67yp6M34XPjuBmg08-mkLE34IxfvqCxlJbfOn1V9DdsER4D3AhB_r6I68dVgVZzBxtCzf84k2StimHotbwJ3KdnF96bIfpiLoWTN7iWbiTWFueMe79oaYaiQB5Q0PSweI6mke3PWAGh5RyV0NzF7D4</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>display-image</string>
+					<key>url</key>
+					<string>https://play-lh.googleusercontent.com/C0-0Jsdl7Zrtqz5pXIrlceWN0lNBWXR_2lYbRw17buoTfekxUwKQ3vAdCZsGHBHsXaY=s96-rw</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>full-size-image</string>
+					<key>url</key>
+					<string>https://play-lh.googleusercontent.com/C0-0Jsdl7Zrtqz5pXIrlceWN0lNBWXR_2lYbRw17buoTfekxUwKQ3vAdCZsGHBHsXaY=s96-rw</string>
+				</dict>
+			</array>
+			<key>metadata</key>
+			<dict>
+				<key>bundle-identifier</key>
+				<string>com.groupe-exp.lexpress</string>
+				<key>bundle-version</key>
+				<string>12.3.0</string>
+				<key>kind</key>
+				<string>software</string>
+				<key>platform-identifier</key>
+				<string>com.apple.platform.iphoneos</string>
+				<key>title</key>
+				<string>LExpress</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
